@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark And Light</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-nav">
+        <!-- Dark Mode Switch -->
+        <div class="theme-switch-wrapper">
+            <span id="toggle-icon">
+                <span class="toggle-text">Light Mode</span>
+                <i class="fas fa-sun"></i>
+            </span>
+            <label class="theme-switch">
+                <input type="checkbox">
+                <div class="slider round"></div>
+            </label>
+        </div>
+        <!-- Navegation bar -->
+        <nav id="nav">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </div>
+    <!-- Section Home -->
+    <div class="container-home">
+        <section id="home">
+        <div class="title-group">
+            <h1>Hello, I'm Victor Freitas.</h1>
+            <h2>Your next Junior Developer!</h2>
+        </div>
+        </section>
+    </div>
+   <!-- Section About -->
+   <section id="about">
+       <div class="title-group">
+           <h1>Section About</h1>
+       </div>
+        <div class="container-images">
+            <div class="image-container">
+                <h2>Problem Solving</h2>
+                <img src="img/undraw_proud_coder_light.svg" alt="Proud coder image" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Proude Coder</h2>
+                <img src="img/undraw_conceptual_idea_light.svg" alt="Conceptual image" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>Software Engineering</h2>
+                <img src="img/undraw_feeling_proud_light.svg" alt="Conceptual image" id="image3">
+            </div>
+        </div> 
+   </section>
+   <!-- Section Projects -->
+   <section id="projects">
+       <h1>Projects</h1>
+       <div class="buttons">
+           <button class="primary">Primary</button>
+           <button class="secondary">Secondary</button>
+           <button class="primary" disabled>Primary</button>
+           <button class="outline">Outline</button>
+           <button class="secondary">Secondary</button>
+           <button class="outline" disabled>Outline</button>
+       </div>
+       <div class="text-box" id="text-box">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, at porro impedit repellendus autem laborum aut alias quae asperiores odit perferendis eum facere cupiditate. Repudiandae libero quaerat reprehenderit quidem nisi.</p>
+       </div>
+   </section>
+   <!-- Section Contact -->
+   <section id="contact">
+       <h1>Contact</h1>
+       <div class="social-icons">
+           <a href="https://github.com/victorphreitas">
+               <i class="fa-brands fa-github fab"></i>
+            </a>
+           <a href="#home">
+               <i class="fa-solid fa-envelope fab"></i>
+            </a>
+           <a href="https://wa.me/+5521965877980">
+               <i class="fa-brands fa-whatsapp fab"></i>
+            </a>
+           <a href="https://twitter.com/victorphreitas">     
+               <i id="twitter-icon" class="fa-brands fa-twitter fab"></i>
+            </a>
+       </div>
+   </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
